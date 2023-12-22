@@ -19,7 +19,7 @@ export class DataService {
             }
         }
 
-        const apiUrl = 'https://api.stanleystella.com/webrequest/productsV2/get_json'
+        const apiUrl = 'https://api.stanleystella.com/webrequest/products/get_json'
         
         const apiResponse = await axios.post(apiUrl, body, {
             headers: {
@@ -34,7 +34,7 @@ export class DataService {
             if (error) throw new Error(error)
         });
 
-        return jsonResponse;
+        return apiResponse;
 
     } 
 
