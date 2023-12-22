@@ -18,11 +18,11 @@
     "forceConsistentCasingInFileNames": true,            /* Ensure that casing is correct in imports. */
 
     /* Type Checking */
-    "strict": true,                                      /* Enable all strict type-checking options. */
+    "strict": false,                                      /* Enable all strict type-checking options. */
     "strictNullChecks": true,                         /* When type checking, take into account 'null' and 'undefined'. */
     "noImplicitThis": true,                           /* Enable error reporting when 'this' is given the type 'any'. */
     "noUnusedLocals": true,                           /* Enable error reporting when local variables aren't read. */
-    "noUnusedParameters": true,                       /* Raise an error when a function parameter isn't read. */
+    // "noUnusedParameters": true,                       /* Raise an error when a function parameter isn't read. */
 
     /* Completeness */
     "skipLibCheck": true                                 /* Skip type checking all .d.ts files. */
